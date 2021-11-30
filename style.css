@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --SlateGray2:#B9D3EE;
+  --col: #fc00ff;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 140vh;
+    background: var(--SlateGray2);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background:var(--orange);
+    color:#fff;
+    padding:.8rem 3rem;
+    border:.2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.7rem;
+    margin: 30px;
+}
+
+.btn:hover{
+    background:rgba(255, 165, 0,.2);
+    color:var(--col);
+  }
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+
+.content img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.content .title{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.content .about{
+    
+}
+
+.content .contact{
+    justify-content: center;
+}
+
+.content .contact a{
+    align-items: center;
+    justify-content: center;
+}
+
+.content .contact .btn{
+    display: block;
+    font-size: 26px;
+}
+
+.content .contact .fb .btn{
+    background: #1877F2;
+    width: 400px;
+}
+.content .contact .fb .btn i{
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+.content .contact .fb .btn:hover{
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.content .contact .ins .btn{
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    color: #fff;
+    width: 400px;
+}
+.content .contact .ins .btn i{
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+.content .contact .ins .btn:hover i{
+    font-size: 24px;
+    color: #9933FF;
+}
+
+.content .contact .ins .btn:hover{
+    background: #948E99;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content .contact .wa .btn{
+    background: #33CC33;
+    color: #fff;
+    width: 400px;
+}
+
+.content .contact .wa .btn i{
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+.content .contact .wa .btn:hover i{
+    font-size: 24px;
+    color: #9933FF;
+}
+
+.content .contact .wa .btn:hover{
+    background: #948E99;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.content .contact .mp .btn{
+    background: #FDFC47;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    width: 400px;
+}
+
+.content .contact .mp .btn i{
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+.content .contact .mp .btn:hover i{
+    font-size: 24px;
+    color: #9933FF;
+}
+
+.content .contact .mp .btn:hover{
+    background: #948E99;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
